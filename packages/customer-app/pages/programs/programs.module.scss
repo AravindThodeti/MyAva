@@ -1,0 +1,123 @@
+$Color: #ffffff;
+$primaryColor: #c93b5d;
+
+.backgroundColor {
+  background-color: #c73b5c;
+  color: $Color;
+}
+.feedbackHeading {
+  margin: 0;
+  padding: 27px 0 24px 24px;
+}
+.programTabs {
+  display: flex;
+  overflow: scroll;
+  padding: 20px 0 20px 27px;
+}
+
+.programs_img {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 12px;
+  line-height: 19px;
+  color: $Color;
+  padding: 5px 0 15px 20px;
+  margin: 0px;
+}
+.logoContainer {
+  display: flex;
+  padding: 15px 15px 0 15px;
+  h2 {
+    font-weight: 700;
+    margin: 0px 5px 0px 0px;
+    color: $Color;
+  }
+  img {
+    padding-left: 7px;
+    margin-right: 5px;
+  }
+}
+
+.card {
+  position: relative;
+  color: $Color;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.cardContent {
+  position: absolute;
+  top: 0;
+  left: 65px;
+  p {
+    margin: 0;
+  }
+  h2 {
+    margin-bottom: 0;
+    margin-top: 40px;
+  }
+}
+
+.cardButton {
+  background: $Color;
+  border-radius: 10px;
+  color: $primaryColor;
+  padding: 8px 20px;
+  border: none;
+}
+.cardDiscountedPrice {
+  font-size: 12px;
+  text-decoration-line: line-through;
+  color: #b9b9b9;
+}
+
+.cardPrice {
+  font-size: 16px;
+  padding: 5px 0px;
+}
+
+.planCard {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid $Color;
+  border-radius: 15px;
+  background-color: $Color;
+  margin: 20px;
+  h2 {
+    text-align: center;
+    padding: 15px 0px;
+  }
+}
+.planCardButton {
+  background: $primaryColor;
+  color: $Color;
+  border: 0;
+  border-radius: 11px;
+  padding: 6px 35px;
+  margin-top: 32px;
+}
+.planCardPrice {
+  padding: 5px;
+  p {
+    margin: 0;
+    padding: 15px 0 0px;
+    font-size: 10px;
+  }
+  h4 {
+    margin-top: 0;
+    padding-top: 4px;
+    font-size: 18px;
+  }
+}
+.whatsAppButton {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.bottomSection {
+  @extend .backgroundColor;
+  padding-bottom: 20px;
+  margin: 0;
+}

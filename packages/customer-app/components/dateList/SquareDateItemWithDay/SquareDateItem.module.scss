@@ -1,0 +1,50 @@
+body .squareDateItemActive {
+  border: 1px solid #e95f94;
+  background-color: white;
+  color: #e95f94;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+}
+.squareDateItem {
+  height: 58.65px;
+  width: 61.78px;
+  border-radius: 3.2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 0;
+  flex-shrink: 0;
+  color: white;
+  .dateActive {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  .dayActive {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+  }
+
+  .dateInactive {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  .dayInactive {
+    font-size: 14px;
+    line-height: 16.8px;
+  }
+  }
+.periodTrackerBlack{
+  @extend .squareDateItem;
+  color:black !important;
+}
+.periodTrackerPink{
+  @extend .squareDateItem;
+  color:#EA4E7B !important;
+}
+.periodTrackerDisable{
+  @extend .squareDateItem;
+  color:lightgray !important;
+}

@@ -1,0 +1,10 @@
+.multipleChoiceQuestion {
+  margin: 10px 0;
+  padding: 20px;
+  .options {
+    padding-left: 5px;
+  }
+}
+.multipleChoiceQuestion.borderBottom {
+  border-bottom: 1px solid rgba(184, 184, 184, 0.5);
+}

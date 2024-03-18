@@ -1,0 +1,10 @@
+.navStyle {
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+}
+
+.navStyle::-webkit-scrollbar {
+    width: 0em;
+}
+

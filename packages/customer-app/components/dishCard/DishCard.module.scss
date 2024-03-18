@@ -1,0 +1,87 @@
+.dishContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15px;
+  margin-bottom: 10px;
+  min-height: 105px;
+  .dish {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    .dishImageContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-right: 5px;
+      img {
+        width: 52px;
+      }
+    }
+    .dishDetails {
+      padding-left: 5px;
+      .dishNameAndQuantity {
+        font-size: 14px;
+        font-weight: 400;
+        display: flex;
+        padding-bottom: 5px;
+        .dishName {
+          padding-right: 2px;
+          max-width: 143px;
+        }
+        .dishQuantity {
+          padding-left: 4px;
+          font-weight: 600;
+          .measurementUnit {
+            font-weight: 500;
+          }
+        }
+      }
+      .goodForText {
+        font-size: 12px;
+        font-weight: 600;
+      }
+      .diseasesList {
+        display: flex;
+        padding-top: 5px;
+        .verticalDivider {
+          width: 1px;
+          background-color: #999999;
+          margin: 0 10px;
+        }
+        .figure {
+          flex-grow: 0;
+          margin: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+        img {
+          width: 22px;
+          box-shadow: 0px 27px 60px rgba(0, 0, 0, 0.07),
+            0px 12.4829px 27.7398px rgba(0, 0, 0, 0.0519173),
+            0px 7.14244px 15.8721px rgba(0, 0, 0, 0.0438747),
+            0px 4.33541px 9.63424px rgba(0, 0, 0, 0.0377964),
+            0px 2.61228px 5.80506px rgba(0, 0, 0, 0.0322036),
+            0px 1.45468px 3.23263px rgba(0, 0, 0, 0.0261253),
+            0px 0.62565px 1.39033px rgba(0, 0, 0, 0.0180827);
+          border-radius: 50%;
+
+          .figCaption {
+            color: #6f6f6f;
+            font-size: 12px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+  .actionItemsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-bottom: 56px;
+    height: 115px;
+  }
+}

@@ -1,0 +1,266 @@
+$primaryFontFamily: "poppins";
+$primaryConentColor: #535353;
+$primaryButtonTextColor: #a7a7a7;
+$primaryButtonBgColor: linear-gradient(
+  89.65deg,
+  #bf385e 0.23%,
+  #a5325f 63.95%,
+  #972e60 99.7%
+);
+$primaryTextColor: #ffffff;
+$optionCheckedPrimaryColor:"#EA4E7B";
+.border_colors {
+  border-bottom: 2px solid #ECDEE3;
+}
+.body{
+  padding-bottom: 56px;
+}
+.profile {
+  @extend .border_colors;
+  margin: 0px 30px 0px 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  img {
+    width: 30px;
+    border-radius: 50%;
+    height: 38px;
+    position: absolute;
+    left: 0;
+  }
+
+}
+
+.dateSection {
+  margin: 0px 21px 0px 21px;
+  padding: 8px 0px;
+  display: flex;
+  overflow-x: scroll;
+  font-family: "Lato", sans-serif;
+  @extend .border_colors
+}
+
+.periodDates {
+  display: flex;
+
+}
+
+.periodDateHeading :nth-child(2) {
+  h6 {
+    color: #A305DB;
+  }
+
+}
+
+.periodPhases {
+  display: flex;
+  justify-content: space-between;
+}
+
+.periodPhase {
+  display: flex;
+
+  img {
+    margin: 4px 7px;
+    height: 15px;
+    width: 15px;
+    align-self: start;
+  }
+
+  p {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+.dFlex {
+  display: flex;
+  margin: 20px 10px;
+  font-family: $primaryFontFamily;
+  font-weight: 500;
+
+}
+
+.justifyContentSpaceAround {
+  justify-content: space-between;
+  padding: 0px 10px 0px 3px;
+}
+
+.fsSmall {
+  font-size: 18px;
+}
+
+.fsExtraSmall {
+  font-size: 14px;
+}
+
+.textRed {
+  color: #E14343;
+}
+
+.textPurple {
+  color: #A305DB;
+}
+
+.dBlock {
+  display: block !important;
+}
+
+.periodScheduleTitle {
+  display: flex;
+  justify-content: space-between;
+  font-family: $primaryFontFamily;
+  margin: 10px 20px;
+  font-weight: 500;
+  font-size: 15px;
+  padding-top: 15px;
+
+}
+
+.periodScheduleText {
+  margin: 10px 20px;
+  font-family: $primaryFontFamily;
+  font-weight: 400;
+  font-size: 12px;
+  color: #535353;
+}
+
+.periodSubHeading {
+  font-family: $primaryFontFamily;
+  margin: 10px 20px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #535353;
+
+
+  ul {
+    list-style-type: '- ';
+    padding-left: 20px;
+    margin-block-start: 0.5em;
+    font-size: 12px;
+
+  }
+}
+.notesSection {
+  padding: 0 20px;
+  margin-top: 15px;
+  
+}
+.pinkBackGround {
+
+  background:rgba(234, 78, 123, 0.1);
+}
+
+.progressbarBackground{
+  height: 400px;
+    margin-bottom: 0;
+    padding-top: 40px;
+    text-align: center;
+    z-index: 11;
+    position: relative;
+  img{
+    width: 100%;
+  }
+}
+.healthScore {
+  position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    height: 310px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    z-index: 111;
+    width: 200px;
+    margin: 40px auto 0 auto;
+
+  .scoreValue {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    overflow-wrap: anywhere;
+  }
+.dayCount {
+  display: flex;
+  align-items: center;
+  // gap: 10px;
+  width: 100%;
+  height: 65px;
+  margin: 0 auto;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  color: #C73B5D;
+  justify-content: center;
+}
+
+.day {
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+  position: relative;
+  padding-left: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  text-align: center;
+}
+
+.dayType {
+  font-size: 15px;
+  padding-bottom: 25px;
+}
+}
+.periodCircle{
+  position: relative;
+}
+.periodCircle::before{
+  content: "";
+    background: #f8e8ed;
+    display: inline-block;
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    z-index: auto;
+    border-bottom-right-radius: 80%;
+    border-bottom-left-radius: 80%;
+}
+.edit
+ button{
+  font-family: $primaryFontFamily;
+  background: linear-gradient(89.65deg, #BF385E 0.23%, #A5325F 63.95%, #972E60 99.7%), linear-gradient(180deg, #F2F2F2 0%, rgba(242, 242, 242, 0) 100%);
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+  border: transparent;
+  color: white;
+  padding: 3px 41px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  // width: 90%;
+  height: 40px;
+  margin: 0 auto;
+  display: table;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.alignPhaseName b{
+  position: absolute;
+    left: 125px;
+    bottom: 10px;
+}
+.noteStyle{
+  font-family: $primaryFontFamily;
+  line-height: 20px;
+  font-size: 13px;
+  padding: 5px 0px;
+}
+

@@ -1,0 +1,15 @@
+.unitSelectorItem {
+  padding: 8px 20px;
+  height: 25px;
+  border-radius: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-color-inactive);
+  background-color: var(--inactive-color);
+  margin-right: 15px;
+}
+
+body .isActive {
+  background-color: var(--active-color);
+  color: var(--text-color-active);
+}

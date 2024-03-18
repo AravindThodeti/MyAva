@@ -1,0 +1,18 @@
+.summaryItem {
+  flex-grow: 1;
+  .figCaption {
+    font-size: 10px;
+    font-weight: 400;
+    color: white;
+  }
+  .figure {
+    margin: 0px;
+    padding-left: 15px;
+    padding-top: 10px;
+  }
+  .itemsCount {
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+  }
+}

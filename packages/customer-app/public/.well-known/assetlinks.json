@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "in.myava.app",
+      "sha256_cert_fingerprints": [
+        "E7:ED:9E:AF:B7:2F:24:C1:5E:D4:1F:9E:83:04:2D:42:60:BB:DC:9A:7D:4C:6C:5B:68:DE:E3:1B:84:16:19:42",
+        "D9:06:4D:DB:24:C7:4F:03:C0:6B:7C:5A:82:3C:62:EC:59:4C:41:8C:94:1F:CF:C7:BF:62:C1:B4:8F:84:E5:6F"
+      ]
+    }
+  }
+]

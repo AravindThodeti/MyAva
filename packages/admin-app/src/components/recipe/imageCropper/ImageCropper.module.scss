@@ -1,0 +1,32 @@
+.imageCropper {
+  background-color: white;
+}
+.imageCropperContainer {
+  width: 100%;
+  max-width: 740px;
+  background-color: black;
+}
+.editorControls {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.zoom {
+  padding: 0 5px;
+}
+.straight {
+  padding: 0 5px;
+}
+.saveButton {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 5px;
+}
+.zoomValue {
+  display: flex;
+  justify-content: space-between;
+}
+.rotateValue {
+  display: flex;
+  justify-content: space-between;
+}

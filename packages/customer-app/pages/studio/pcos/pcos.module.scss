@@ -1,0 +1,7 @@
+.videoCardDataWrapper {
+    overflow: scroll;
+    height: calc(100vh - 350px - 91px - 56px);
+    :first-child {
+        border-top: none !important;
+    }
+}

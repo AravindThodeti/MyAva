@@ -1,0 +1,109 @@
+.communitySection {
+  min-height: 428px;
+  background: #ebebeb;
+  border-radius: 33px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  font-family: "Poppins";
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  .questionMarkImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .askNowSection {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 70px;
+    .askNow {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .heading {
+        font-size: 20px;
+        font-weight: 700;
+        color: #4f4f4f;
+      }
+      .subHeading {
+        font-size: 12px;
+        font-weight: 500;
+        color: #4f4f4f;
+      }
+    }
+  }
+  .cardText {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #4f4f4f;
+    margin-top: 40px;
+    padding-left: 15px;
+    padding-right: 100px;
+  }
+  .sampleQuestions {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    .question {
+      display: flex;
+      .devider {
+        margin-right: 8px;
+        background-color: #c73b5d;
+        height: 15px;
+        width: 2px;
+        border-radius: 1px;
+      }
+      font-size: 12px;
+      font-weight: 600;
+      color: #4f4f4f;
+      padding-left: 5px;
+      margin: 5px;
+    }
+  }
+  .communityLink {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 600;
+    color: #4f4f4f;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    img {
+      margin-left: 8px;
+    }
+  }
+  .topics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px 15px 0 15px;
+    .topicItem {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-width: 100px;
+      padding: 10px;
+      img {
+        width: 60px;
+        height: 60px;
+      }
+      span {
+        font-size: 12px;
+        font-weight: 600;
+        color: #4f4f4f;
+      }
+    }
+    .buttonSection {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

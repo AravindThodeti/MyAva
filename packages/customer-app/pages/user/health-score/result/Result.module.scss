@@ -1,0 +1,175 @@
+.healthScoreResult {
+  background-color: #bc3857;
+  padding: 15px;
+  min-height: 200vh;
+  font-family: "Poppins", sans-serif;
+  .expertsSection {
+    margin: -15px;
+  }
+  .notes {
+    display: flex;
+    color: white;
+    .notesText {
+      padding-left: 5px;
+    }
+  }
+  .shareResultHeading {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    padding: 10px 0;
+  }
+  .copyLinkHeading {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    padding: 10px 0;
+  }
+  .copyToClipBoard {
+    width: 100%;
+    height: 25px;
+    border-radius: 4px;
+    background: #ffffff;
+    position: relative;
+    font-size: 10px;
+    color: #898989;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .shareButtons {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+  .homePageButton {
+    display: flex;
+    justify-content: center;
+    padding: 30px 15px 20px 15px;
+  }
+  .resultCircleSection {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .title {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    .messageGreeting {
+      font-size: 20px;
+      font-weight: 700;
+      color: #e7e7e7;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+  }
+  .bodyImage {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0 15px 0;
+    img {
+      height: 283px;
+    }
+  }
+  .tips {
+    padding: 0 25px;
+    margin-top: 50px;
+    .messageBody {
+      text-align: center;
+      font-size: 14px;
+      font-weight: 600;
+      color: #e7e7e7;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      margin: 20px 10px 55px 15px;
+    }
+  }
+}
+
+.circleBig {
+  position: relative;
+  height: 180px;
+  width: 180px;
+  padding: 21px;
+  border-radius: 50% 50%;
+  transform: translate(-20px);
+  .circle {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    margin: -15px;
+    img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+  }
+  .one {
+    transform: rotate(25deg) translate(100px);
+    img {
+      transform: rotate(-25deg);
+    }
+  }
+  .two {
+    transform: rotate(-20.6deg) translate(105px);
+    img {
+      transform: rotate(20.6deg);
+    }
+  }
+  .three {
+    transform: rotate(-66.2deg) translate(110px);
+    img {
+      transform: rotate(66.2deg);
+    }
+  }
+  .four {
+    transform: rotate(-111.8deg) translate(110px);
+    img {
+      transform: rotate(111.8deg);
+    }
+  }
+  .five {
+    transform: rotate(-157.4deg) translate(105px);
+    img {
+      transform: rotate(157.4deg);
+    }
+  }
+  .six {
+    transform: rotate(-203deg) translate(100px);
+    img {
+      transform: rotate(203deg);
+    }
+  }
+}
+
+// .circleBig::before {
+//   position: absolute;
+//   height: 110px;
+//   width: 110px;
+//   border-radius: 50%;
+//   background: green;
+//   content: "";
+//   transform: translate(25px, 15px);
+// }

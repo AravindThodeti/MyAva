@@ -1,0 +1,341 @@
+.healthScoreStepOne {
+  font-family: "Lato", sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .linearProgressContainer {
+    display: flex;
+    align-items: center;
+  }
+  .errorMessageToAttemptAllQs {
+    margin: 0;
+    padding: 0;
+    color: #f22c1f;
+    font-size: 14px;
+    background-color: white;
+    padding: 20px;
+  }
+  .topScoreSection {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url("/assets/images/healthScore/backgrounds/womenFaceWithBackground.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    z-index: 5;
+    top: 0px;
+    border-radius: 0px 0px 70px 120px;
+    .message {
+      margin-top: 10px;
+      color: white;
+      h1 {
+        font-size: 20px;
+        font-weight: 700;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+      p {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 5px 15px 10px 15px;
+        span {
+          font-weight: 800;
+        }
+      }
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+
+  .currentStep {
+    font-size: 14px;
+    font-weight: 400;
+    color: #292947;
+  }
+  .welcomeSection {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+      width: 120px;
+    }
+    .messageLineAlpha {
+      font-size: 20px;
+      font-weight: 700;
+      color: #010101;
+      margin: 0;
+      padding: 0;
+      line-height: 30px;
+    }
+    .messageLineBeta {
+      font-size: 20px;
+      font-weight: 700;
+      color: #010101;
+      margin: 0;
+      padding: 0;
+      line-height: 30px;
+    }
+    .messageLineGamma {
+      font-size: 14px;
+      font-weight: 500;
+      color: #010101;
+      margin: 0;
+      padding: 0;
+      line-height: 20px;
+    }
+  }
+  .pinkBackGround {
+    background-color: white;
+    padding: 15px;
+    padding-top: 25px;
+    margin-top: 320px;
+    .dobLabel {
+      span {
+        margin-left: 10px;
+        font-size: 14px;
+      }
+    }
+    label {
+      font-size: 18px;
+      font-weight: 500;
+      color: #4f4f4f;
+      display: block;
+    }
+    .questionName {
+      .nameInput {
+        height: 40px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        width: 100%;
+        margin-top: 10px;
+        border: none;
+        font-size: 14px;
+        font-weight: 600;
+        color: #4b4b4b;
+        padding-left: 10px;
+        font-family: "Lato", sans-serif;
+      }
+      input:focus {
+        outline: none;
+      }
+    }
+    .questionDob {
+      margin-top: 15px;
+      .dateOfBirthInput {
+        margin-top: 10px;
+        width: 220px;
+        display: flex;
+        justify-content: space-between;
+        select {
+          width: 67px;
+          height: 40px;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 10px;
+          border: none;
+          font-size: 14px;
+          font-weight: 600;
+          color: #4b4b4b;
+          padding-left: 5px;
+          border-right: 5px solid white;
+        }
+      }
+    }
+    .height {
+      margin-top: 15px;
+      .message {
+        font-size: 14px;
+        font-weight: 400;
+        color: #4f4f4f;
+        margin-top: 5px;
+      }
+      .heightInput {
+        .unitSelector {
+          padding-right: 15px;
+          margin-top: 15px;
+          margin-bottom: 25px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .heightInputBox {
+            display: flex;
+            input {
+              width: 34px;
+              height: 28px;
+              border: 1px solid #b6b6b6;
+              border-radius: 5px;
+              margin-left: 8px;
+              margin-right: 2px;
+              padding-left: 5px;
+              font-size: 18px;
+              font-weight: 600;
+            }
+            input:focus {
+              outline: none !important;
+              border: 1px solid #c53a5e;
+            }
+            .ftInput {
+              display: flex;
+              padding-right: 5px;
+              align-items: flex-end;
+              .ftValue {
+                font-size: 18px;
+                padding-right: 2px;
+                font-weight: 600;
+              }
+              .ftUnit {
+                font-size: 16px;
+              }
+            }
+
+            .cmInput input {
+              width: 50px;
+            }
+            .cmInput {
+              .cmValue {
+                font-size: 18px;
+                padding-right: 2px;
+                font-weight: 600;
+              }
+              .cmUnit {
+                font-size: 16px;
+              }
+            }
+            .inchInput {
+              display: flex;
+              align-items: flex-end;
+              .inchValue {
+                font-size: 18px;
+                padding-right: 2px;
+                font-weight: 600;
+              }
+              .inchUnit {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+        .sliderContainer {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          padding: 0 60px;
+          padding-left: 45px;
+          height: 200px;
+          .girlImageHeight {
+            height: 100%;
+            display: flex;
+            flex-direction: column-reverse;
+          }
+          .heightValue {
+            font-size: 18px;
+            font-weight: 400;
+            color: black;
+            width: 70px;
+            .heightUnit {
+              font-size: 15px;
+              display: inline-block;
+            }
+          }
+        }
+      }
+    }
+
+    .weight {
+      margin-top: 15px;
+      .message {
+        font-size: 14px;
+        font-weight: 400;
+        color: #4f4f4f;
+        margin-top: 5px;
+      }
+      .weightInput {
+        .unitSelector {
+          margin-top: 15px;
+          margin-bottom: 15px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding-right: 15px;
+          .weightInputBox {
+            display: flex;
+            input {
+              width: 34px;
+              height: 28px;
+              border: 1px solid #b6b6b6;
+              border-radius: 5px;
+              margin-left: 8px;
+              margin-right: 2px;
+              padding-left: 5px;
+              font-size: 18px;
+              font-weight: 600;
+            }
+            input:focus {
+              outline: none !important;
+              border: 1px solid #c53a5e;
+            }
+            .kgInput {
+              display: flex;
+              align-items: flex-end;
+              .kgValue {
+                font-size: 18px;
+                padding-right: 2px;
+                font-weight: 600;
+              }
+              .kgUnit {
+                font-size: 16px;
+              }
+            }
+            .poundInput {
+              display: flex;
+              align-items: flex-end;
+              .poundValue {
+                font-size: 18px;
+                padding-right: 2px;
+                font-weight: 600;
+              }
+              .poundUnit {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+        .sliderContainer {
+          .girlImageWeightContainer {
+            padding-left: 40%;
+            display: flex;
+            padding-right: 60px;
+            align-items: center;
+            justify-content: space-between;
+            .weightValue {
+              font-size: 18px;
+              font-weight: 400;
+              color: black;
+              .weightUnit {
+                font-size: 15px;
+                display: inline-block;
+                width: 30px;
+              }
+            }
+          }
+          .sliderWrapper {
+            display: flex;
+            justify-content: center;
+            .slider {
+              width: 70%;
+            }
+          }
+        }
+      }
+    }
+  }
+  .saveButton {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+  }
+}

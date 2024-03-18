@@ -1,0 +1,31 @@
+.communityCard {
+  background-color: #bf3959;
+  color: white;
+  font-family: "Poppins";
+  padding: 15px;
+  height: 224px;
+  position: relative;
+  h1 {
+    margin: 0;
+    padding: 0;
+  }
+  .cardHeading {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 5px;
+  }
+  .askQuestions {
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 5px;
+  }
+  .connectText {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .bgImage {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}

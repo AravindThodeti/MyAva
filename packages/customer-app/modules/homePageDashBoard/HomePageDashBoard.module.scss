@@ -1,0 +1,164 @@
+$primaryTextColor:white;
+$primaryFontFamily: "poppins";
+.homePageDashBoard {
+  padding: 15px 0;
+  height: 490px;
+  border-bottom-left-radius: 40% 20%;
+  border-bottom-right-radius: 40% 20%;
+  box-shadow: 0px 1.21944px 1.21944px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(
+    117.44deg,
+    #f8b1b5 -11.58%,
+    #cd3c5d 33.68%,
+    #cd3c5d 64.67%,
+    #8b2b61 110.68%
+  );
+  .topUserInfo {
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    .userProfile {
+      display: flex;
+      align-items: center;
+      .userAvatar {
+        img {
+          width: 80px;
+          border-radius: 50%;
+          height: 80px;
+        }
+      }
+      .userName {
+        font-size: 16px;
+        font-weight: 600;
+        color: $primaryTextColor;
+        padding: 10px;
+      }
+    }
+    .healthScoreInfo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  .summarySection {
+    padding-top: 10px;
+    .summaryHeading {
+      h1 {
+        padding-left: 35px;
+        font-size: 14px;
+        font-weight: 400;
+        color: $primaryTextColor;
+      }
+    }
+    .goodForItems {
+      padding-left: 15px;
+      display: flex;
+      color: $primaryTextColor;
+      overflow: scroll;
+    }
+    .goodForItems::-webkit-scrollbar {
+      display: none; /* Safari and Chrome */
+    }
+    .goodForItems {
+      -ms-overflow-style: none; /* Internet Explorer 10+ */
+      scrollbar-width: none; /* Firefox */
+    }
+  }
+  .weeklyConsistency {
+    padding: 15px 15px 10px 15px;
+    .heading h1 {
+      font-size: 16px;
+      font-weight: 600;
+      margin: 0;
+      padding: 0;
+      color: $primaryTextColor;
+      padding-left: 20px;
+      margin-bottom: 10px;
+    }
+  }
+  .consistencyMessage {
+    font-size: 12px;
+    font-weight: 400;
+    color: $primaryTextColor;
+    margin: 0;
+    padding: 0;
+    padding: 0 70px;
+    text-align: center;
+  }
+  .dietTrackerButtonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .consistencyCard {
+    padding: 11px 15px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 82px;
+    border-radius: 40px;
+    background: #CA3D5D;
+    color: $primaryTextColor;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 25px;
+    font-family: $primaryFontFamily;
+    box-shadow: 4px 4px 9px #A80339, inset 0px 4px 4px rgba(129, 5, 20, 0.25);
+  }
+  .periodTrackerName{
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+  }
+}
+.consistencyCardNoTracker{
+  @extend .consistencyCard;
+  padding: 11px 30px !important;
+  padding-top: 0px !important;
+  align-items: center !important;
+  .noTrackerContent{
+    display: flex;
+    justify-content: space-between;
+  width: 100%;
+
+    p{
+      font-size: 14px;
+      font-weight: 400;
+      margin: 0;
+    }   
+  }
+  .noTrackerContent button{
+    font-size: 10px;
+    background-color: $primaryTextColor;
+    width: 132px;
+    height: 40px;
+    border-radius: 40px;
+    color: #BF3959;
+    text-transform: none;
+    font-weight: 600;
+    border-color: transparent;
+  }
+}
+
+.trackerContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   p{
+    margin: 0;
+  }
+  p:first-child{
+    font-weight:400
+  }
+  p:nth-child(2){
+    font-weight: 500;
+    text-align: center;
+  }
+}
+.verticalLine{
+  border-right-style: dotted;
+  color: $primaryTextColor;
+  height: 40px;
+}

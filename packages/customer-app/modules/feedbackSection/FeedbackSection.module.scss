@@ -1,0 +1,58 @@
+.feedbackSection {
+  padding: 0px 10px 20px 10px;
+  display: flex;
+  justify-content: center;
+  .carouselRoot {
+    overflow: initial;
+    padding: 35px 40px 0 35px;
+    width: 400px;
+    margin: 0 auto;
+  }
+  .feedBackCard {
+    width: 240px;
+    margin: 0 auto;
+    height: 283px;
+    border: 2px solid #ff90ae;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 10px;
+    .openingComma {
+      width: 19px;
+      position: absolute;
+      bottom: 15px;
+      left: 15px;
+    }
+    .closingComma {
+      width: 19px;
+      position: absolute;
+      top: 15px;
+      right: 15px;
+    }
+    .feedBackText {
+      font-size: 10px;
+      font-weight: 500;
+      line-height: 15px;
+      overflow-y: scroll;
+      height: 100%;
+    }
+    .userImage {
+      width: 78px;
+      height: 78px;
+      border-radius: 50%;
+      position: absolute;
+      top: -34px;
+      left: -34px;
+    }
+    .userName {
+      position: absolute;
+      bottom: 15px;
+      right: 15px;
+      font-size: 14px;
+      font-weight: 700;
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,192 @@
+.recipePage {
+  background-color: #f1f1f1;
+  padding-bottom: 15px;
+  .backgroundLiner {
+    background: linear-gradient(302.57deg, #8b2b61 0%, #cd3c5d 100%);
+    border-radius: 0px 0px 70px 120px;
+    height: 460px;
+    padding: 0 10px;
+    .mealType {
+      display: flex;
+      img {
+        padding-right: 10px;
+      }
+      .mealTypeText {
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+      }
+    }
+    .recipeImageSection {
+      .recipeImage {
+        img {
+          width: 72px;
+        }
+      }
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .recipeName {
+        padding-top: 5px;
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+      }
+    }
+    .goodForSection {
+      margin-top: 20px;
+      .goodForText {
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+      }
+      .goodForDiseases {
+        display: flex;
+        overflow: scroll;
+      }
+      .goodForDiseases::-webkit-scrollbar {
+        display: none; /* Safari and Chrome */
+      }
+      .goodForDiseases {
+        -ms-overflow-style: none; /* Internet Explorer 10+ */
+        scrollbar-width: none; /* Firefox */
+      }
+    }
+    .recipeInfoAlpha {
+      margin: 20px 0;
+      color: white;
+      font-size: 14px;
+      font-weight: 600;
+      display: flex;
+      width: 50%;
+      align-items: center;
+      gap: 20px;
+      .preparationTime {
+        flex: 1;
+        display: flex;
+        img {
+          padding-right: 10px;
+        }
+      }
+      .complexity {
+        flex: 1;
+        display: flex;
+        img {
+          padding-right: 10px;
+        }
+      }
+    }
+    .totalNutritionValue {
+      .totalNutritionHeading {
+        color: white;
+        font-size: 14px;
+        font-weight: 600;
+        margin: 0;
+        padding: 0;
+        margin-top: 5px;
+      }
+      .nutritionalBreakDown {
+        display: flex;
+        margin-top: 15px;
+        .nutritionItem {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          .nutritionContent {
+            color: white;
+            font-size: 12px;
+            font-weight: 400;
+          }
+          .nutritionName {
+            color: white;
+            font-size: 14px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+  .ingredientSection {
+    padding: 0 15px;
+    margin-top: 15px;
+    .ingredientContainer {
+      .buttonContainer {
+        display: flex;
+        justify-content: center;
+      }
+      background-color: white;
+      border-radius: 16px;
+      padding: 15px;
+      .ingredientItem {
+        display: flex;
+        height: 42px;
+        align-items: center;
+        justify-content: space-between;
+        .nameAndImageContainer {
+          display: flex;
+          align-items: center;
+          .ingredientImage {
+            padding-right: 5px;
+            img {
+              width: 32px;
+              height: 32px;
+            }
+          }
+        }
+      }
+      .ingredientHeading {
+        font-size: 14px;
+        font-weight: 600;
+        color: #676767;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 10px;
+      }
+    }
+  }
+  .videoSection {
+    padding: 0 15px;
+    margin-top: 15px;
+    .videHeading {
+      font-size: 14px;
+      font-weight: 600;
+      color: #676767;
+      margin: 0;
+      padding: 0;
+      padding-bottom: 10px;
+    }
+  }
+  .directionSection {
+    padding: 0 15px;
+    margin-top: 15px;
+    .directionsContainer {
+      background-color: white;
+      border-radius: 16px;
+      padding: 15px;
+      .directionText {
+        font-size: 14px;
+        font-weight: 400;
+        text-align: justify;
+        text-justify: inter-word;
+        .seeMore {
+          font-weight: 600;
+          padding-left: 5px;
+        }
+      }
+    }
+    .directionHeading {
+      font-size: 14px;
+      font-weight: 600;
+      color: #676767;
+      margin: 0;
+      padding: 0;
+      padding-bottom: 10px;
+    }
+  }
+  .doneButtonContainer {
+    padding: 15px;
+  }
+}

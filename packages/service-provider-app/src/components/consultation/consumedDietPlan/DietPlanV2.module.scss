@@ -1,0 +1,229 @@
+$primaryTextColor: #ffffff;
+$primaryBackGroundColor: #c73b5d;
+$secondaryTextColor: #3a3a3a;
+$tableItemsColor: #525252;
+$checkBoxColor: #a4a4a4;
+*,body,h1,h2,h3,h4,h5,h6,p,span,div {
+  font-family: "Poppins", sans-serif;
+}
+
+.dietPlanBtns {
+  text-align: center;
+  color: white;
+  background-color: #c73b5d;
+  border-radius: 25px;
+  box-sizing: border-box;
+  border-color: transparent;
+  align-items: center;
+  cursor: pointer;
+  padding: 2px;
+  p {
+    padding: 0;
+    margin: 0;
+  }
+}
+.dietPlanBtnsfirstChild {
+  color: $primaryTextColor;
+  font-weight: 300;
+  font-size: 13px;
+  padding: 5px 3px;
+}
+.dietPlanBtns .dietPlanBtnsSecondChild {
+  font-weight: 600;
+  font-size: 20px;
+  color: $primaryBackGroundColor;
+  background-color: $primaryTextColor;
+  border-radius: 20px;
+}
+.dietPlanNotSelected {
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.dayListItem {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+.dietPlanDay {
+  color: $secondaryTextColor;
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 13px;
+}
+.recipeName,
+.recipeQuantity,
+.dietMenuValue .tableIcons {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.recipeName p,
+.recipeQuantity p {
+  margin: 0;
+}
+
+.dietMenuValues .dietMenuValue {
+  border-bottom: none;
+  padding: 0;
+}
+.dietMenuValue .tableIcons img {
+  cursor: pointer;
+}
+.dietMenuValue .tableIcons {
+  gap: 10px;
+  margin-bottom: 20px;
+
+}
+.dietMenuHeadings .dietMenuHeading {
+  border-bottom: none;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: $tableItemsColor;
+}
+.dietMenuHeadings .dietMenuHeading p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: $secondaryTextColor;
+}
+.dietMenuValues .dietMenuValue p {
+  margin: 0;
+}
+
+.dietMenuValues .dietMenuValue:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.footerDaySelection {
+  background-color: #bf3957;
+  ul {
+    list-style-type: none;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    li {
+      display: flex;
+      color: $primaryTextColor;
+    }
+  }
+}
+.FooterForAllDays {
+  text-align: center;
+  ul {
+    list-style-type: none;
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+  }
+  li {
+    display: flex;
+    gap: 50px;
+    p {
+      color: $tableItemsColor;
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+}
+
+.footerButton {
+  background: linear-gradient(89.65deg, #bf385e 0.23%, #972e60 99.7%);
+  color: $primaryTextColor;
+  border-radius: 43.3636px;
+  border-color: transparent;
+  padding: 0px 65px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.footerButton:active{
+  transform: scale(0.95)
+}
+.footerPrevBtn {
+  @extend .footerButton;
+  background: transparent;
+  color: $secondaryTextColor;
+  border-color: transparent;
+  display: block;
+  margin-top: 0px;
+}
+.recipes {
+  .placeHolder {
+    color: $tableItemsColor;
+  }
+}
+.days {
+  padding-top: 45px;
+}
+.quantity{
+  padding-top: 18px;
+}
+.sessionSeperator {
+  margin-bottom: 30px;
+  h2 {
+    color: $tableItemsColor;
+  }
+}
+.unSelect {
+  pointer-events: none;
+  user-select: none;
+}
+.AutoCompleteContent {
+  color: #bf385e;
+}
+
+.MuiPaper-root  MuiDialog-paperWidthSm{
+  border-radius: 30px;
+}
+.editDialog img{
+  cursor: pointer;
+}
+.popupBtnActions .editSubmit{
+  @extend .footerButton;
+  color: white;
+  padding: 0px 33px;
+  font-size: 25px;
+
+}
+.editDialog .popupBtnActions{
+  justify-content: center;
+}
+.editDialogContent{
+  margin-top: 20px;
+}
+.tableBtns{
+  padding: 0;
+  background: transparent;
+  border: transparent;
+}
+.timeLineCheckbox:hover{
+background-color: transparent;
+}
+.sessionDivider{
+  margin-top: 50px;
+}
+.tableEditBtn{
+  background: transparent;
+  border: transparent;
+}
+.inactiveTableEditBtn{
+  pointer-events: none;
+  cursor: not-allowed;
+}

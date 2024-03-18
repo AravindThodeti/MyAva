@@ -1,0 +1,79 @@
+$primarytextColor:white;
+
+
+.editDishPage {
+  background-color: #f1f1f1;
+  min-height: 100%;
+  position: relative;
+  .searchSection {
+    height: 150px;
+    padding: 0 10px;
+    background: linear-gradient(
+      117.44deg,
+      #f8b1b5 -11.58%,
+      #cd3c5d 33.68%,
+      #cd3c5d 64.67%,
+      #8b2b61 110.68%
+    );
+    border-radius: 0px 0px 25px 25px;
+    .editDishHeading {
+      display: flex;
+      img {
+        padding-right: 10px;
+      }
+      .editDishText {
+        color: $primarytextColor;
+        font-size: 20px;
+        font-weight: 600;
+      }
+    }
+    .searchBoxContainer {
+      margin: 10px 0;
+      position: relative;
+    }
+    .categoryHeadingContainer {
+      .categoryHeading {
+        font-size: 14px;
+        font-weight: 600;
+        color: $primarytextColor;
+        margin: 15px 0 0 0;
+      }
+    }
+    .categories {
+      display: flex;
+      overflow-x: scroll;
+      .categoryListItem {
+        font-size: 14px;
+        font-weight: 400;
+        color: $primarytextColor;
+        padding: 10px 0;
+        margin: 0 15px;
+      }
+      .categoryListItem.active {
+        border-bottom: 2px solid $primarytextColor;
+      }
+    }
+  }
+  .dishSection {
+    padding: 15px 15px 0 15px;
+    margin-top: 50px;
+  }
+  .trackButtonContainer Button{
+    margin-bottom: -55px;
+  }
+  .trackButtonContainer {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.addNewDishButton{
+  background: linear-gradient(302.57deg, rgb(139, 43, 97) 0%, rgb(205, 60, 93) 100%), linear-gradient(rgb(217, 217, 217) 0%, rgba(217, 217, 217, 0) 100%);
+    color: $primarytextColor;
+    padding: 8px 16px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 24px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,41 @@
+$PrimaryFontFamily: "poppins";
+$imgtxtColor: #ffffff;
+.container {
+  background: linear-gradient(
+    180deg,
+    #035156 0%,
+    #f88975 53.07%,
+    #f88975 89.89%
+  );
+}
+.livePageBgColor {
+  background-color: #094957;
+  min-height: 100vh;
+}
+
+.allPgContainer {
+  text-align: center;
+}
+
+.allPgBgColor {
+  background: linear-gradient(
+      180deg,
+      #035156 0%,
+      #f88975 53.07%,
+      rgba(248, 137, 117, 0) 89.89%
+    ),
+    linear-gradient(
+      180deg,
+      #410713 13.77%,
+      #ed4264 49.37%,
+      rgba(255, 237, 188, 0.05) 91.17%
+    );
+}
+
+.diseaseContent {
+  text-align: center;
+  padding-top: 35px;
+}
+.diseaseContent img {
+  margin-bottom: 40px;
+}

@@ -1,0 +1,11 @@
+.todoListItem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .todoText {
+    font-size: 14px;
+    font-weight: 400;
+    color: #676767;
+  }
+}

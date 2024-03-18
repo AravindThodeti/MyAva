@@ -1,0 +1,12 @@
+.categoryListItem {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  padding: 10px 3px;
+  margin: 0 10px;
+  flex-basis: content;
+  white-space: nowrap;
+}
+.categoryActive {
+  border-bottom: 2px solid white;
+}

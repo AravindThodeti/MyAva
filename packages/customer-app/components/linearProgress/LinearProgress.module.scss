@@ -1,0 +1,20 @@
+.linearProgress {
+  margin: 2px 0px;
+  width: var(--progress-bar-width, 200px);
+  height: var(--progress-bar-height, 20px);
+  background-color: var(--progress-bar-color, #c4c4c4);
+  border-radius: 2px;
+  position: relative;
+  &::before {
+    content: attr(data-label);
+    display: flex;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: calc(var(--progress-width, 0) * 1%);
+    max-width: 100%;
+    background-color: var(--progress-color, rgb(50, 50, 249));
+    border-radius: 2px;
+  }
+}

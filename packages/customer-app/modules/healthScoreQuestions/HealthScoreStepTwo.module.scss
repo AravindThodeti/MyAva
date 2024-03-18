@@ -1,0 +1,81 @@
+.healthScoreStepTwo {
+  font-family: "Lato", sans-serif;
+  .linearProgressContainer {
+    display: flex;
+    align-items: center;
+  }
+  .topScoreSection {
+    position: fixed;
+    z-index: 5;
+    top: 0px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-image: url("/assets/images/healthScore/backgrounds/womenFaceWithBackground.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0px 0px 70px 120px;
+  }
+  .linearProgressContainer {
+    display: flex;
+    height: 18px;
+    align-items: center;
+    .cross {
+      padding-left: 25px;
+    }
+  }
+  .message {
+    margin-top: 10px;
+    color: white;
+    h1 {
+      font-size: 20px;
+      font-weight: 700;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    p {
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      font-size: 14px;
+      font-weight: 500;
+      padding: 5px 15px 10px 15px;
+      span {
+        font-weight: 800;
+      }
+    }
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .questions {
+    margin-top: 335px;
+    background-color: #ffffff;
+    .errorMessageToAttemptAllQs {
+      padding-left: 20px;
+      color: #f22c1f;
+      font-size: 14px;
+    }
+    .questionOneBorder {
+      padding: 20px;
+      border-bottom: 1px solid rgba(184, 184, 184, 0.5);
+      .answerSection {
+        margin: 20px 0;
+      }
+    }
+    .questionOne {
+      padding: 20px;
+      .answerSection {
+        margin: 20px 0;
+      }
+    }
+
+    border-radius: 10px;
+    .saveButton {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 15px;
+      position: relative;
+    }
+  }
+}

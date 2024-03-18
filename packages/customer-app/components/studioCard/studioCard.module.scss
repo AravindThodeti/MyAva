@@ -1,0 +1,59 @@
+$primaryFontColor: #ffffff;
+$PrimaryFontFamily: "poppins";
+.mainBGColor {
+  background: linear-gradient(
+    180deg,
+    #094957 67.99%,
+    rgba(248, 137, 117, 0.92) 100%
+  );
+}
+
+.backgroundText {
+  font-weight: 700;
+  font-size: 47px;
+  color: #2b6a6c;
+  font-family: $PrimaryFontFamily;
+  margin: 0;
+}
+.backgroundSubtext {
+  @extend .backgroundText;
+  font-size: 20px;
+}
+.sessionDate {
+  display: flex;
+  gap: 51px;
+  p {
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+.livePageContent {
+  text-align: center;
+}
+.cardContent {
+  color: $primaryFontColor;
+  font-family: $PrimaryFontFamily;
+  padding: 5px 15px 27px 40px !important;
+}
+.livePageButtons {
+  background: #c93b5d;
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  font-family: $PrimaryFontFamily;
+  text-transform: none;
+  border-radius: 10px;
+  border-color: transparent;
+  padding: 3px 24px;
+  margin-right: 4px;
+}
+
+.livePageDescription {
+  font-size: 11px;
+  font-weight: 400;
+  &:first-letter {
+    text-transform: capitalize;
+  }
+}

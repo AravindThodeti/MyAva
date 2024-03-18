@@ -1,0 +1,4 @@
+image: gitpod/workspace-full
+
+tasks:
+  - init: npx lerna bootstrap && cd packages/common && yarn build

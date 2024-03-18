@@ -1,0 +1,105 @@
+.startHealthScore {
+  background-color: #fef9f9;
+  min-height: calc(100vh - 56px);
+  padding-top: 15px;
+  padding-right: 25px;
+  position: relative;
+  .logo {
+    padding-left: 15px;
+  }
+  .startButtonSection {
+    padding-bottom: 50px;
+    background-color: #fef9f9;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .welcomeMessage {
+    padding-left: 25px;
+    margin-top: 50px;
+    font-size: 18px;
+    .welcomeName {
+      font-weight: 600;
+      line-height: 30px;
+    }
+    .message {
+      line-height: 20px;
+      font-weight: 400;
+      .bold {
+        font-weight: 600;
+      }
+    }
+  }
+  .circleBig {
+    position: relative;
+    height: 180px;
+    width: 180px;
+    padding: 21px;
+    border-radius: 50% 50%;
+    transform: translate(-20px);
+    .circle {
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      display: block;
+      position: absolute;
+      overflow: hidden;
+      top: 50%;
+      left: 50%;
+      margin: -15px;
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+    }
+    .one {
+      transform: rotate(25deg) translate(100px);
+      img {
+        transform: rotate(-25deg);
+      }
+    }
+    .two {
+      transform: rotate(-20.6deg) translate(105px);
+      img {
+        transform: rotate(20.6deg);
+      }
+    }
+    .three {
+      transform: rotate(-66.2deg) translate(110px);
+      img {
+        transform: rotate(66.2deg);
+      }
+    }
+    .four {
+      transform: rotate(-111.8deg) translate(110px);
+      img {
+        transform: rotate(111.8deg);
+      }
+    }
+    .five {
+      transform: rotate(-157.4deg) translate(105px);
+      img {
+        transform: rotate(157.4deg);
+      }
+    }
+    .six {
+      transform: rotate(-203deg) translate(100px);
+      img {
+        transform: rotate(203deg);
+      }
+    }
+  }
+
+  .circleBig::before {
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    background: green;
+    content: "";
+    transform: translate(25px, 15px);
+  }
+}

@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@200;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+.firebaseui-card-header {
+  display: none;
+}
+
+.firebaseui-card-footer {
+  display: none;
+}
+
+.firebaseui-container.mdl-card {
+  background-color: #0000;
+}
+
+div.firebaseui-card-content {
+  padding: 0px;
+}
+
+button.firebaseui-country-selector.firebaseui-id-country-selector {
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#ui-sign-in-phone-number-input {
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.firebaseui-label.mdl-textfield__label {
+  display: none;
+}
+
+div.firebaseui-card-actions {
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+div.firebaseui-recaptcha-wrapper {
+  padding-bottom: 0px;
+}
+
+button.firebaseui-id-country-selector.firebaseui-country-selector {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.firebaseui-textfield.firebaseui-phone-input-wrapper.firebaseui-id-country-selector {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.firebaseui-textfield.firebaseui-phone-input-wrapper.mdl-textfield {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/* Styles for Desktop responsiveness */
+
+/* Home Page */
+@media only screen and (min-width: 1200px) {
+  /* Logo */
+  .myava-logo {
+    width: 100px !important;
+  }
+
+  /* Login button */
+  .makeStyles-loginButton-8 {
+    font-size: 1.3rem !important;
+  }
+
+  /* Login button */
+  .MuiSvgIcon-root {
+    font-size: 1.8rem !important;
+  }
+
+  /* Welcome message */
+  .myava-welcome-message {
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
+  }
+  .makeStyles-containerDiv-18 {
+    padding-left: 6px;
+  }
+  .myava-welcome-logo {
+    width: 50px !important;
+    height: 50px !important;
+    transform: translate(2px, 2px);
+  }
+
+  /** Expert tabs*/
+  .myava-consult-heading {
+    padding-bottom: 5px;
+  }
+  .myava-consult-tabs button {
+    padding: 0px;
+  }
+  .myava-consult-see-all {
+    font-weight: 600 !important;
+    font-size: 18px !important;
+  }
+  .MuiTabs-flexContainer {
+    width: 600px;
+  }
+  .jss220 {
+    width: 200px !important;
+  }
+  .MuiTab-wrapper {
+    font-size: 1rem;
+  }
+  .myava-consult-see-all-div {
+    display: flex;
+    justify-content: end;
+    padding-right: 30px !important;
+  }
+
+  /** External content*/
+  .eleven.wide.column {
+    width: 100% !important;
+  }
+  /* Pcos guide carousel */
+  .myava-pcos-guide {
+    height: 250px !important;
+  }
+  .pcos-guide-heading {
+    font-size: 24px !important;
+  }
+
+  /**Ask an expert image*/
+  .ask-an-expert-image {
+    margin-top: 150px !important;
+  }
+
+  /**Myava topics for you*/
+  .myava-topic-for-you {
+    margin-top: 100px;
+  }
+  .myava-topics-for-you-heading {
+    font-size: 24px !important;
+  }
+  .myava-topics-see-all {
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    transform: translate(-20px);
+  }
+
+  /**Footer*/
+  .myava-footer {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+  }
+  /**Pcos guide carousel subtitle*/
+  .myava-carousel-subtitle {
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+  }
+
+  /*Programs section*/
+  .myava-programs-section {
+    display: flex;
+    padding-top: 20px !important;
+    padding-bottom: 50px !important;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .myava-programs-section img {
+    width: 450px;
+    height: 350px;
+  }
+  .myava-programs-how-it-works {
+    font-size: 24px !important;
+    font-weight: 600 !important;
+  }
+}
+
+.MuiTooltip-tooltipPlacementTop {
+  margin: 5px !important;
+}
+.react-datepicker__day {
+  width: 2.5rem !important;
+  line-height: 2rem !important;
+}
+.MuiStepConnector-alternativeLabel {
+  left: calc(-50% + 15px) !important;
+  right: calc(50% + 16px) !important;
+}
+
+/** to remove the horizontal extra width **/
+.MuiGrid-spacing-xs-3 {
+  width: 100% !important;
+}
+
+.MuiPaper-rounded.MuiDialog-paperScrollPaper {
+  border-radius: 20px !important;
+  width: 294px;
+}

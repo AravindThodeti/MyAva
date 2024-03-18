@@ -1,0 +1,98 @@
+$primaryButtonTextColor: #a7a7a7;
+$primaryButtonBgColor: linear-gradient(
+  89.65deg,
+  #bf385e 0.23%,
+  #a5325f 63.95%,
+  #972e60 99.7%
+);
+$primaryTextColor: #ffffff;
+$primaryFontFamily: "poppins";
+$optionCheckedPrimaryColor:"#EA4E7B";
+
+.body {
+  margin-top: 27px;
+  padding: 0px 20px 56px;
+  font-family: $primaryFontFamily;
+}
+.content {
+  font-size: 19px;
+  display: flex;
+  flex-direction: column;
+}
+
+.navigationButtons {
+  display: flex;
+  gap: 59px;
+  margin: 40px 0px;
+}
+.navigationButtons button:first-child {
+  color: $primaryButtonTextColor;
+  background: transparent;
+  border: transparent;
+  font-weight: 400;
+  font-family: $primaryFontFamily;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0px;
+}
+
+.navigationButtons button:nth-child(2) {
+  font-family: $primaryFontFamily;
+  background: $primaryButtonBgColor;
+  border-radius: 27px;
+  border: transparent;
+  color: $primaryTextColor;
+  padding: 3px 41px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+.mcqOPtions {
+  text-align: center;
+  background: #f2f2f2;
+  border-radius: 10px;
+  padding: 10px 0px !important; 
+  color: black;
+  margin: 10px 0px !important;
+  width:100%;
+}
+// .mcqOPtions input[type="radio"]:checked+label {
+//   background: #76cf9f;    
+// }
+.errorMessageToAttemptAllQs {
+  margin: 0;
+  padding: 0;
+  color: #f22c1f;
+  font-size: 14px;
+  background-color: white;
+  padding: 20px;
+}
+.mcqOPtions label{
+  margin:0px 10px 0px 15px;
+  padding: 0px;
+}
+.checkBoxOptions label{
+  justify-content: space-between;
+  display: flex;
+  margin:0px 10px 0px 15px;
+  padding: 0px;
+
+}
+
+.changeBg{
+  background-color: #EA4E7B !important;
+  color: white;
+}
+
+.checkBoxWhite {
+  color:white !important;
+}
+
+.MuiRadio-root{
+display: none !important;
+}
+.helpText{
+margin-top: 0;
+padding-top: 0;
+font-size: 15px;
+}

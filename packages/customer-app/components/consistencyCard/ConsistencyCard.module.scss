@@ -1,0 +1,21 @@
+.consistencyCard {
+  padding: 11px 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 82px;
+  border-radius: 40px;
+  background: rgba(248, 248, 248, 0.85);
+}
+.badge {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  .day {
+    font-size: 14px;
+    color: #676767;
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,29 @@
+.warningImage {
+  display: flex;
+  justify-content: center;
+}
+.closeButton {
+  display: flex;
+  justify-content: flex-end;
+}
+.dialogueTitle {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  padding: 15px 0;
+  margin: 0;
+}
+.dialogueContent {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Poppins";
+  text-align: center;
+  padding: 0 0 15px 0;
+  margin: 0;
+}
+.dialogueActions {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}

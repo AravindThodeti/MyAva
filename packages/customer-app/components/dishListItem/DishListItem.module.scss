@@ -1,0 +1,43 @@
+.dishListItem {
+  height: 109px;
+  display: flex;
+  border-radius: 16px;
+  background-color: white;
+  margin-bottom: 15px;
+  height: 60px;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  .dishDetails {
+    .dishName {
+      font-size: 14px;
+      font-weight: 400;
+      color: #4f4f4f;
+    }
+  }
+  .dishQuantity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .dishUnit {
+      padding-right: 10px;
+    }
+    .dishCounter {
+      img {
+        width: 18px;
+        height: 18px;
+      }
+      height: 18px;
+      width: 70px;
+      display: flex;
+      justify-content: space-between;
+      .counterValue {
+        font-size: 16px;
+        font-weight: 600;
+        color: #cd3c5d;
+        line-height: 20px;
+      }
+    }
+  }
+}
